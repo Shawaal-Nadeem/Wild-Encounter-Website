@@ -58,13 +58,16 @@ function Home() {
       <Box
       component="form"
       sx={{
-        '& .MuiTextField-root': { m: 1, width: '50ch' },
+        display: 'flex',
+        justifyContent:'space-around',
+        alignItems: 'center',
+        '& .MuiTextField-root': { m: 1, width: '65ch' },
       }}
       noValidate
       autoComplete="off"
     >
-      <div className="u-text">
-        
+
+      <div>
         <TextField
           defaultValue="Professional Services"
           InputProps={{
@@ -72,6 +75,8 @@ function Home() {
           }}
           variant="standard"
         />
+        </div>
+        <div>
          <TextField
           defaultValue="News"
           InputProps={{
@@ -82,10 +87,31 @@ function Home() {
       </div>
     </Box>
     </div>
-      <div>
-      <img className="homepic3" src="/images/homepic4.png" alt="" />
 
+      <div>
+      <img className="homepic4" src="/images/homepic4.png" alt="" />
+      <p className="line2">The incidence of black bear, grizzly bear, and cougar encounters, attacks, and fatalities on remote worksites is a growing concern. Educating and informing your employees on how to avoid and handle encounters is a priority. Wild Encounters Ltd. can train your workers to enhance safety in the backcountry.</p>
+      <button className="learn-btn">LEARN MORE</button>
+      <div className="homepic-mini">
+      <img className="homepic-m" src="/images/homepic5.png" alt="" />
+      <img className="homepic-m" src="/images/homepic6.png" alt="" />
+      <img className="homepic-m" src="/images/homepic7.png" alt="" />
       </div>
+      </div>
+      <div className="mini1-lines">
+      <h6 className="mini-line1">Grizzly bear attack near Bella Bella, B.C.</h6>
+      <p className="mini-line2">By CBC News</p>
+      </div>
+      <div className="mini2-lines">
+      <h6 className="mini-line1">Grizzly bear attack near Bella Bella, B.C.</h6>
+      <p className="mini-line2">By CBC News</p>
+      </div>
+      <div className="mini3-lines">
+      <h6 className="mini-line1">Grizzly bear attack near Bella Bella, B.C.</h6>
+      <p className="mini-line2">By CBC News</p>
+      </div>
+
+
 
     </div>
   );
