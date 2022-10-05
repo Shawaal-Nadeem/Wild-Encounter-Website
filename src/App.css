@@ -1,38 +1,100 @@
-.App {
+nav{
+  background-color: #0009;
+  height: 100px;
+  width: 100%;
+}
+.img-size{
+  height: 60px;
+  margin-top: 0%;
+  margin-left: 3%;
+}
+nav ul{
+  float: right;
+  margin-right: 2px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 0px;
+  margin: 0px;
+}
+.navbtn{
+  cursor: pointer;
+  font-size: 18px;
+  color: white;
+  background-color: transparent;
+  border-style:hidden;
+ padding-left: 10px;
+ padding-right: 10px;
+ padding-top: 35px;
+ padding-bottom: 43px;
+ font-weight: bold;
+ margin-left: 50px;
+}
+.navbtn:hover{
+background-color: black;
+color: white;
+}
+.btn-nav{
+  margin-top: 0%;
+  margin-right: 2%;
+}
+#main{
+  width: 100%;
+  height:53vh;
+  background-image: url(../public/images/homepic.png);
+  background-size: 100% 100%;
+
+}
+.logohome{
+  margin-top: 0%;
+  height: 60%;
+  width: 25%;
+  margin-left: 4%;
+  
+}
+.anim{
+  position: relative;
+  animation: mymove 2s;
+}
+@keyframes mymove {
+  from {left: -50%;}
+  to {left: 0%;}
+}
+.heading1{
+  margin-top: 13%;
+  font-size: 230%;
+ text-align: center;
+ font-style: oblique;
+ color: rgb(61, 58, 58);
+}
+.line1{
   text-align: center;
+  font-size: 110%;
+  font-weight: bold;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: -4%;
+  color: rgb(214, 61, 82);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.homepic2-3{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  margin-top: 35%;
+}
+.homepic2{
+  width: 62%;
+}
+.homepic3{
+  margin-left: 3%;
+  width: 30%;
+}
+.read-onlytext{
+  margin-top: 7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
