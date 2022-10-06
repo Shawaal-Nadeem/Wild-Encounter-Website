@@ -115,33 +115,125 @@ margin-top: 3%;
 .learn-btn{
   background-color: rgb(215, 53, 53);
   color: white;
-  height: 35px;
+  height: 38px;
   width: 150px;
   margin-left:57px;
 border-color: transparent;
-transition: width 0.5s;
+transition: width 0.2s;
 padding: 10px;
 }
 .learn-btn:hover{
   cursor: pointer;
   width: 180px;
 }
-.mini1-lines{
-  margin-left: 70%;
-  margin-top: -15%;
-}
-.mini2-lines{
-  margin-left: 70%;
-  margin-top: -10%;
-}
-.mini3-lines{
-  margin-left: 70%;
-  margin-top: -9%;
-}
 .mini-line1{
   font-size: 15px;
   color: blue;
+  margin-top: 60px;
 }
 .mini-line2{
   margin-top: -5%;
+  font-style: oblique;
+}
+.mini-lines{
+  margin-left: 70%;
+  margin-top: -26.5%;
+}
+.news-btn{
+  background-color: rgb(215, 53, 53);
+  color: white;
+  height: 40px;
+  width: 130px;
+  margin-left:57px;
+border-color: transparent;
+transition: width 0.2s;
+padding: 10px;
+margin-left: -53%;
+}
+.news-btn:hover{
+  cursor: pointer;
+  width: 150px;
+}
+.end-page{
+  background-color: rgb(39, 39, 39);
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 800%;
+}
+.end-head1{
+  color: white;
+  font-size: 130%;
+  margin-top: -23%;
+}
+.end-head1>div{
+  color: white
+}
+.col1{
+  margin-top: 9%;
+}
+.col1{
+  color: white;
+  margin-top: 1%;
+}
+.col2{
+  color: white;
+  margin-top: 3%;
+}
+.col3{
+  color: white;
+  margin-top: 6%;
+}
+.col1-line:hover{
+cursor: pointer;
+color: rgb(215, 53, 53);
+}
+.col2-line:hover{
+  cursor: pointer;
+  color: rgb(215, 53, 53);
+  }
+  .col3-line:hover{
+    cursor: pointer;
+    color: rgb(215, 53, 53);
+    }
+.disclaimer{
+  font-size: 70%;
+  font-weight: bolder;
+  color: white;
+}
+.col1-lastLine{
+  color: white;
+  font-size: 70%;
+width: 27%;
+margin-top: -9%;
+margin-left: 8px;
+}
+.vertical-line{
+  border-left: 1px solid whitesmoke;
+  height: 400px;
+  margin-top: 0%;
+}
+.homepic8{
+  width: 40%;
+}
+.end-head3{
+  font-weight: bolder;
+}
+.col3-line{
+  font-weight: bolder;
+}
+.footer{
+  position: absolute;
+width: 100%;
+height: 70px;
+top: 2376px;
+background-color: rgb(31, 31, 31);
+text-align: center;
+}
+.footer-line{
+  color: white;
+  margin-top: 30px;
+  font-size: 15px;
 }
