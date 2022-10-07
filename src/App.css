@@ -38,7 +38,7 @@ color: white;
   margin-top: 0%;
   margin-right: 2%;
 }
-#main{
+#main-Home{
   width: 100%;
   height:53vh;
   background-image: url(../public/images/homepic.png);
@@ -154,9 +154,9 @@ margin-left: -53%;
   cursor: pointer;
   width: 150px;
 }
-.end-page{
+.endhome-page{
   background-color: rgb(39, 39, 39);
-  margin-top: 15%;
+ margin-top: 15.1%;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -236,4 +236,129 @@ text-align: center;
   color: white;
   margin-top: 30px;
   font-size: 15px;
+}
+#main-Team{
+  width: 100%;
+  height:53vh;
+  background-image: url(../public/images/teampic1.jpg);
+  background-size: 100% 100%;
+}
+.team-heading1{
+  font-weight: bolder;
+  color: rgb(58, 58, 58);
+  margin-top: 8%;
+  margin-left: 10%;
+}
+.line{
+  width: 80%;
+}
+.all-intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.kevin-wilson-pic-section{
+margin-top: 5%;
+margin-left: 10%; 
+}
+.kevin-detail{
+margin-left: 30%;
+margin-top: -25%;
+}
+.name1{
+  font-weight: bolder; 
+  color: rgb(58, 58, 58);
+}
+.rank1{
+  font-style: oblique;
+  color: rgb(215, 53, 53);
+  
+  font-weight: bold;
+}
+.kevin-detail-lines{
+  width: 87%;
+}
+.last-para-kevin-detail{
+  width: 85%;
+  margin-left: 9%;
+ 
+}
+.contact-heading2{
+  margin-top: 10%;
+  margin-left: 10%;
+  font-weight: bolder;
+}
+.info-n-pic{
+display: flex;
+flex-direction: row;
+}
+.table-info{
+  margin-left: 10%;
+}
+.contact-pic1{
+  margin-left: 30%;
+}
+.endcontact-page{
+  background-color: rgb(39, 39, 39);
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 800%;
+}
+.endcontact-footer{
+    position: absolute;
+  width: 100%;
+  height: 70px;
+  top: 1325.4px;
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+}
+.endteamfooter{
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: 3720px;
+  background-color: rgb(31, 31, 31);
+  text-align: center;
+}
+#main-Service{
+  width: 100%;
+  height:53vh;
+  background-image: url(../public/images/servicepic1.jpg);
+  background-size: 100% 100%;
+}
+.service-details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.detail1{
+  background-color: rgb(215, 53, 53);
+  color: white;
+  padding: 20px;
+  margin-left:9% ;
+  width: 60%;
+  margin-top: 15%;
+}
+.servicedetail-lines{
+  margin-left:9% ;
+  width: 80%;
+}
+.detail2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.servicepic2{
+  width: 25%;
+  margin-left: 2%;
+  margin-top: 25%;
+}
+.servicedetail-lines2{
+  margin-left:9% ;
+  width: 60%;
+  margin-top: -10%;
 }

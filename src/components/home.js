@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 function Home() {
   return (
     <div>
-      <div id="main">
+      <div id="main-Home">
         <nav className="navbar">
           <label className="logo">
             <img className="img-size" src="/images/logo.png" alt="logo" />
@@ -27,7 +27,7 @@ function Home() {
               </li>
             </Link>
             <Link to="/Contact-Us">
-              {" "}
+             
               <li>
                 <button className="navbtn">Contact Us</button>
               </li>
@@ -112,7 +112,12 @@ function Home() {
       <p className="mini-line2">By Caley Ramsay and Emily Mertz</p>
       <button className="news-btn">MORE NEWS</button>
       </div>
-<div className="end-page">
+
+
+<div className="col1-lastLine">
+Wild Encounters Ltd. provides advice and training services to better equip employees and the public in handling wildlife encounters and attacks. It is understood and conveyed that all wild animals are unpredictable and sometimes dangerous, no two encounters or attacks are the same, and that every individual must exercise common sense and discretion to appropriately respond in each situation. Wild Encounters Ltd. does not communicate absolutes, but rather recommendations and suggested guidelines based on experiences and proven strategies.
+</div>
+<div className="endhome-page">
   <div className="col1">
 <p className="end-head1">Our Services</p>
 <p className="col1-line">Wildlife Awareness & Bear Defense Training</p>
@@ -155,16 +160,10 @@ function Home() {
 <img className="homepic8" src="/images/homepic8.png" alt="" />
 </div>
 </div>
-
-<div className="col1-lastLine">
-Wild Encounters Ltd. provides advice and training services to better equip employees and the public in handling wildlife encounters and attacks. It is understood and conveyed that all wild animals are unpredictable and sometimes dangerous, no two encounters or attacks are the same, and that every individual must exercise common sense and discretion to appropriately respond in each situation. Wild Encounters Ltd. does not communicate absolutes, but rather recommendations and suggested guidelines based on experiences and proven strategies.
-</div>
-
 <div className="footer">
   <p className="footer-line">Wild Encounters Ltd. | All rights Reserved 2019</p>
 
   </div>
-
     </div>
   );
 }

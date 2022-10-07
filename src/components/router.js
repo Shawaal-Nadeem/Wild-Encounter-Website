@@ -9,6 +9,7 @@ import Team from "./team";
 import Service from "./service";
 import Contact from "./contact";
 
+
 function RouterConfig() {
     return (
         <div>
@@ -20,6 +21,7 @@ function RouterConfig() {
             <Route exact path="/Services" element={<Service/>}></Route>
             <Route exact path="/Contact-Us" element={<Contact/>}></Route>
         </Routes>
+        
       </Router>
 
       </div>
