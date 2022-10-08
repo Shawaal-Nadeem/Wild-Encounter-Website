@@ -350,6 +350,8 @@ flex-direction: row;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: -10%;
+  
   
 }
 .servicepic2{
@@ -361,4 +363,16 @@ flex-direction: row;
   margin-left:9% ;
   width: 60%;
   margin-top: -10%;
+}
+.detail2-heading1{
+  color: rgb(58, 58, 58);
+
+}
+.service-footer{
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: 3827px;
+  background-color: rgb(31, 31, 31);
+  text-align: center;
 }
