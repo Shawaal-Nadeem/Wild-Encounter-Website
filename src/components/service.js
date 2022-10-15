@@ -36,6 +36,7 @@ function Service() {
       <hr className="line" />
       <div className="service-details">
         <div>
+       
           <h2 className="detail1">
             Wildlife Safety Audits & Policy Development – Work Site & Camp
             Design
@@ -52,7 +53,9 @@ function Service() {
             compliance, and wildlife security. Wild Encounters Ltd. can also
             assist with implementation.
           </p>
+         
           <div className="detail2">
+            
             <h2 className="detail1">
               Wildlife Awareness & Bear Defense Training
             </h2>

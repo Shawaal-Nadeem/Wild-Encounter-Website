@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AOS from "aos";
 function Team() {
+  AOS.init();
   return (
     <div>
       <div id="main-Team">
@@ -34,7 +36,7 @@ function Team() {
       </div>
       <h1 className="team-heading1">Our Team</h1>
       <hr className="line"></hr>
-
+      <div data-aos="fade-right">
       <div className="all-intro">
         <div className="kevin-wilson">
           <div className="kevin-wilson-pic-section">
@@ -100,8 +102,9 @@ function Team() {
           Ltd.
         </p>
       </div>
+      </div>
       <hr className="line" />
-
+      <div data-aos="fade-right">
       <div className="all-intro">
         <div className="kevin-wilson">
           <div className="kevin-wilson-pic-section">
@@ -148,8 +151,9 @@ function Team() {
           Sands operations.
         </p>
       </div>
+      </div>
       <hr className="line" />
-
+      <div data-aos="fade-right">
       <div className="all-intro">
         <div className="kevin-wilson">
           <div className="kevin-wilson-pic-section">
@@ -187,8 +191,9 @@ function Team() {
           wildlife make him an ideal consultant and course instructor.
         </p>
       </div>
+      </div>
       <hr className="line" />
-
+      <div data-aos="fade-right">
       <div className="all-intro">
         <div className="kevin-wilson">
           <div className="kevin-wilson-pic-section">
@@ -221,8 +226,9 @@ function Team() {
           </div>
         </div>
       </div>
+      </div>
       <hr className="line" />
-
+      <div data-aos="fade-right">
       <div className="all-intro">
         <div className="kevin-wilson">
           <div className="kevin-wilson-pic-section">
@@ -262,6 +268,7 @@ function Team() {
           of Technology (NAIT) for future gunsmithing and related courses slated
           to begin in 2016.
         </p>
+      </div>
       </div>
       <hr className="line" />
 
