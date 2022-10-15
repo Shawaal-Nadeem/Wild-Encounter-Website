@@ -5,8 +5,9 @@ import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
 import AOS from "aos";
 function Home() {
-  AOS.init();
-
+  AOS.init({
+    startEvent: 'load'
+  });
   return (
     <div>
       <div id="main-Home">
