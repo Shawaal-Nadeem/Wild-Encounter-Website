@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 import Grid from "@mui/material/Grid";
-import AOS from 'aos';
+import AOS from "aos";
 
 function Home() {
   AOS.init();
@@ -41,24 +41,44 @@ function Home() {
         <div className="anim">
           <img className="logohome" src="/images/logo.png" alt="" />
         </div>
-
+        <Box sx={{ flexGrow: 1 }}>
+      <Grid container spacing={2}>
+        <Grid item xs={12}>
         <h6 className="heading1">
           “Advising & Educating Industry and the Public in Wildlife Conflict
           Management”
         </h6>
+        </Grid>
+        <Grid item xs={12}>
         <p className="line1">
           Professional Services include Wildlife Awareness & Safety Training,
           Wildlife Hazard Assessments, Wildlife Defense Supply Sales, Worksite
           Wildlife Safety Audits, Wildlife Monitoring, and KBD/Cougar Hound
           Services
         </p>
+        </Grid>
+      </Grid>
+    </Box>
+       
       </div>
-      <div data-aos="zoom-out">
-        <div className="homepic2-3">
-          <img className="homepic2" src="/images/homepic2.png" alt="" />
-          <img className="homepic3" src="/images/homepic3.png" alt="" />
-        </div>
-      </div>
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={0}>
+          <Grid item xs={6}>
+          <div data-aos="zoom-out">
+          <div className="homepic2-3">
+            <img className="homepic2" src="/images/homepic2.png" alt="" />
+            </div>
+            </div>
+          </Grid>
+          <Grid item xs={6}>
+          <div data-aos="zoom-out">
+          <div className="homepic2-3">
+            <img className="homepic3" src="/images/homepic3.png" alt="" />
+            </div>
+            </div>
+          </Grid>
+        </Grid>
+      </Box>
       <div className="read-onlytext">
         <Box
           component="form"
@@ -144,18 +164,20 @@ function Home() {
             </a>
           </div>
           <div className="mini-lines">
-          <a href="https://www.theglobeandmail.com/report-on-business/suncor-employee-killed-in-bear-attack/article18547720/">
+            <a href="https://www.theglobeandmail.com/report-on-business/suncor-employee-killed-in-bear-attack/article18547720/">
               <h6 className="mini-line1">
-              Suncor employee killed in bear attack
+                Suncor employee killed in bear attack
               </h6>
 
-              <p className="mini-line2">By Carrie Tait, Calgary Globe and Mail</p>
+              <p className="mini-line2">
+                By Carrie Tait, Calgary Globe and Mail
+              </p>
             </a>
           </div>
           <div className="mini-lines">
-          <a href="https://globalnews.ca/news/1805042/pipeline-worker-attacked-by-cougar-near-grande-prairie/">
+            <a href="https://globalnews.ca/news/1805042/pipeline-worker-attacked-by-cougar-near-grande-prairie/">
               <h6 className="mini-line1">
-              Pipeline Worker Attacked by Cougar Shares Story
+                Pipeline Worker Attacked by Cougar Shares Story
               </h6>
 
               <p className="mini-line2">By Caley Ramsay and Emily Mertz</p>

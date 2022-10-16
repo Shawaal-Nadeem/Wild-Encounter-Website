@@ -80,15 +80,15 @@ color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
-  margin-top: 35%;
+ margin-left: 8%;
+  margin-top: 90%;
 }
 .homepic2{
-  width: 62%;
+  width: 90%;
 }
 .homepic3{
   margin-left: 3%;
-  width: 30%;
+  width: 50%;
 }
 .read-onlytext{
   margin-top: 7%;
