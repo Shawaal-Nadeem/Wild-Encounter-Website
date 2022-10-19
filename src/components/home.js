@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
@@ -140,12 +139,12 @@ function Home() {
             </a>
             <a href="https://www.theglobeandmail.com/report-on-business/suncor-employee-killed-in-bear-attack/article18547720/">
               <div className="homepic-mini">
-                <img className="homepic-m" src="/images/homepic5.png" alt="" />
+                <img className="homepic-m" src="/images/homepic6.png" alt="" />
               </div>
             </a>
             <a href="https://globalnews.ca/news/1805042/pipeline-worker-attacked-by-cougar-near-grande-prairie/">
               <div className="homepic-mini">
-                <img className="homepic-m" src="/images/homepic5.png" alt="" />
+                <img className="homepic-m" src="/images/homepic7.png" alt="" />
               </div>
             </a>
             <a href="https://wildencountersltd.com/news/">
