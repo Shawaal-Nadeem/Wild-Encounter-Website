@@ -8,7 +8,7 @@ import Home from "./home";
 import Team from "./team";
 import Service from "./service";
 import Contact from "./contact";
-
+import Footer from "./footer";
 
 function RouterConfig() {
     return (
@@ -21,7 +21,7 @@ function RouterConfig() {
             <Route exact path="/Services" element={<Service/>}></Route>
             <Route exact path="/Contact-Us" element={<Contact/>}></Route>
         </Routes>
-        
+        <Footer/>
       </Router>
 
       </div>

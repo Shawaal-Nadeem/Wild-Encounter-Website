@@ -1,7 +1,13 @@
 body{
 	animation: transitionIn 0.75s;
 }
-
+.stacks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(39,39,39);
+}
 @keyframes transitionIn {
 	from{
 		opacity: 0;
@@ -96,14 +102,15 @@ color: white;
   align-items: center;
   justify-content: center;
  margin-left: 8%;
-  margin-top: 90%;
+  margin-top: 70%;
 }
 .homepic2{
-  width: 90%;
+  width: 120%;
+  margin-left: 20%;
 }
 .homepic3{
   margin-left: 3%;
-  width: 50%;
+  width: 60%;
 }
 .read-onlytext{
   margin-top: 7%;
@@ -183,7 +190,7 @@ padding: 10px;
 .end-head1{
   color: white;
   font-size: 130%;
-  margin-top: -23%;
+  
 }
 .end-head1>div{
   color: white
@@ -223,9 +230,7 @@ color: rgb(215, 53, 53);
 .col1-lastLine{
   color: white;
   font-size: 70%;
-width: 27%;
-margin-top: -9%;
-margin-left: 8px;
+
 }
 .vertical-line{
   border-left: 1px solid whitesmoke;
@@ -252,6 +257,9 @@ text-align: center;
   color: white;
   margin-top: 30px;
   font-size: 15px;
+}
+.fullFooter{
+margin-top: 5%;
 }
 #main-Team{
   width: 100%;
@@ -314,6 +322,7 @@ flex-direction: row;
 .contact-pic1{
   margin-left: 30%;
 }
+
 .endcontact-page{
   background-color: rgb(39, 39, 39);
   margin-top: 15%;
